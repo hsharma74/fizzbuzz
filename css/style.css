@@ -1,18 +1,24 @@
-.start-button, .clear-button {
-	font-size: 1em;
+.submit-button, .clear-button {
+	font-size: 0.8em;
 	font-family: verdana;
-	border-radius: 0.5em;
+	border-radius: 0.25em;
+	display: inline-block;
 }
 
-.start-button {
-	float: left;
-	color: #ffff;
-}
+
 .clear-button {
-	margin-left: 100px;
+	margin-left: 200px;
 	color: #ffaa;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .fizzbuzz {
 	padding-top: 2em;
+}
+
+#text1 {
+	border-radius: 0.25em;
+	height: 1.5em;
 }
